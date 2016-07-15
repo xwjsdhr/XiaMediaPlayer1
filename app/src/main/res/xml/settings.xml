@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_setting_auto_next"
+        android:title="@string/setting_auto_next" />
+    <ListPreference
+        android:defaultValue="@string/portrait"
+        android:dialogTitle="@string/title_orietation"
+        android:entries="@array/pref_arr"
+        android:entryValues="@array/pref_arr_val"
+        android:key="pref_play_view_orietation"
+        android:title="@string/pref_play_view_orietation" />
+
+    <ListPreference
+        android:defaultValue="@string/large_image"
+        android:dialogTitle="@string/pref_show_ways"
+        android:entries="@array/pref_show_ways"
+        android:entryValues="@array/pref_show_ways_val"
+        android:key="pref_show_ways"
+        android:title="@string/pref_show_ways" />
+</PreferenceScreen>

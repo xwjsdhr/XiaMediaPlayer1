@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">视频播放器</string>
+    <string name="video_list">视频列表</string>
+    <string name="video_play">视频播放</string>
+    <string name="music_list">音频列表</string>
+    <string name="song_name">歌曲名称</string>
+    <string name="artist">艺术家</string>
+    <string name="duration">持续时间</string>
+    <string name="text_music">音频文件</string>
+    <string name="text_video">视频文件</string>
+    <string name="tv_text_delete">删除</string>
+    <string name="tv_text_play">播放</string>
+    <string name="video_name">视频名称</string>
+    <string name="action_setting">设置</string>
+    <string name="setting_auto_next">自动播放下一部</string>
+    <string name="setting">设置</string>
+    <string name="pref_play_view_orietation">初始屏幕方向</string>
+    <string name="title_orietation">屏幕方向</string>
+    <string name="landscape">land</string>
+    <string name="portrait">por</string>
+    <string name="sort_by_time">按时间排序</string>
+    <string name="sort_by_name">按名称排序</string>
+    <string name="action_search">搜索</string>
+    <string name="small_image">si</string>
+    <string name="large_image">lm</string>
+    <string name="pref_show_ways">查看方式</string>
+    <string name="sort_by_size">按文件大小排序</string>
+    <string name="sort_by_duration">按视频长度排序</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="title_rename">重命名</string>
+    <string name="file_name">文件名</string>
+    <string name="text_history">历史记录</string>
+    <string name="video_size">视频大小</string>
+    <string name="video_duration">视频长度</string>
+    <string name="video_add_time">添加时间</string>
+    <string name="video_modified_time">修改时间</string>
+    <string name="video_location">文件位置</string>
+    <string name="clear_history">清空历史记录</string>
+    <string name="empty_history">无任何历史记录</string>
+    <string name="play_video_time">播放视频时间</string>
+    <string name="video_date" >视频日期</string>
+    <string name="sort_ways">排序方式</string>
+    <string name="video_play_times">视频播放次数</string>
+    <string name="action_quit">退出</string>
+
+    <style name="description">Media Controls</style>
+
+    <string-array name="pref_arr">
+
+        <item>横屏</item>
+        <item>竖屏</item>
+    </string-array>
+    <string-array name="pref_arr_val">
+
+        <item>@string/landscape</item>
+        <item>@string/portrait</item>
+    </string-array>
+    <string-array name="pref_show_ways">
+        <item>无图</item>
+        <item>大图</item>
+    </string-array>
+    <string-array name="pref_show_ways_val">
+        <item>@string/small_image</item>
+        <item>@string/large_image</item>
+    </string-array>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rl_item_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_toLeftOf="@+id/ib_item_menu">
+
+            <TextView
+                android:id="@+id/tv_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:maxLength="25"
+                android:maxLines="1"
+                android:text="@string/app_name"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_item_duration"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name" />
+
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:id="@+id/tv_item_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_item_duration"
+                android:text="@string/app_name"
+                android:textSize="12dp"
+                />
+
+
+        </RelativeLayout>
+
+
+        <ImageButton
+            android:visibility="gone"
+            android:id="@+id/ib_item_menu"
+            android:padding="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_menu_edit"
+            android:src="@drawable/ic_menu_moreoverflow_normal_holo_light" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
